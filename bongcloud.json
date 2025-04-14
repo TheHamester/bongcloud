@@ -1,0 +1,16 @@
+{
+	"id": "bongcloud",
+	"name": "Bongcloud",
+	"display_name": "Bongcloud",
+	"author": ["Hamester"],
+	"description": "Adds Chess consumable type, as well as chess related Jokers",
+	"prefix": "bongcloud",
+	"main_file": "src/main.lua",
+	"priority": 0,
+	"badge_colour": "111111",
+	"badge_text_colour": "FFFFFF",
+	"version": "1.0.0",
+	"dependencies": [
+		"Steamodded (>=1.0.0~BETA-0408c)"
+	]
+}
