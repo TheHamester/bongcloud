@@ -15,6 +15,9 @@ return {
                     "{C:attention}#2#{C:joker} Chess{} cards",
 					"to use immediately",
                 },
+				unlock = {
+                    "Find it in shop to unlock it"
+                },
 			},
 			p_bongcloud_chess_pack_2 = {
 				name="Chess Pack",
@@ -22,6 +25,9 @@ return {
                     "Choose {C:attention}#1#{} of up to",
                     "{C:attention}#2#{C:joker} Chess{} cards",
 					"to use immediately",
+                },
+				unlock = {
+                    "Find it in shop to unlock it"
                 },
 			}
 		},
@@ -31,7 +37,10 @@ return {
 				text = {
 					"Select up to #1# cards",
 					"to become {C:attention}Queens{}"
-				}
+				},
+                unlock = {
+                    "Find this card in the Chess Pack"
+                },
 			},
 			c_bongcloud_the_knight = {
 				name = "The Knight",
@@ -39,7 +48,10 @@ return {
 					"Select up to {C:attention}#1#{} cards to {C:attention}always{}",
 					"to apply {C:blue}Top Deck{} sticker to",
 					"Up the ante by {C:attention}#2#{}",
-				}
+				},
+                unlock = {
+                    "Find this card in the Chess Pack"
+                },
 			},
 			c_bongcloud_the_bishop = {
 				name = "The Bishop",
@@ -48,7 +60,10 @@ return {
 					"Turns selected cards to the right",
 					"of the {C:attention}left-most{} selected card into",
 					"its direct {C:attention}successors{} by rank"
-				}
+				},
+                unlock = {
+                    "Find this card in the Chess Pack"
+                },
 			},
 			c_bongcloud_the_rook = {
 				name = "The Rook",
@@ -56,7 +71,10 @@ return {
 					"Destroys every instance of a card",
 					"in the deck with the same {C:attention}rank{}",
 					"as the selected card"
-				}
+				},
+                unlock = {
+                    "Find this card in the Chess Pack"
+                },
 			},
 			c_bongcloud_the_queen = {
 				name = "The Queen",
@@ -64,14 +82,20 @@ return {
 					"Select up to {C:attention}#1#{} cards to {C:attention}destroy{}",
 					"Destroy them, and upgrade every hand",
 					"contained within by {C:attention}#2#{} levels"
-				}
+				},
+                unlock = {
+                    "Find this card in the Chess Pack"
+                },
 			},
 			c_bongcloud_the_king = {
 				name = "The King",
 				text = {
 					"Select a {C:red}Rare{} joker to destroy",
 					"Increase joker slots by {C:attention}#1#{}"
-				}
+				},
+                unlock = {
+                    "Find this card in the Chess Pack"
+                },
 			}
 		}
 	},

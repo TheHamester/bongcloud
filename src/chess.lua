@@ -77,7 +77,7 @@ SMODS.Consumable {
     discovered = false,
     loc_vars = function(_, info_queue, card)
         return { vars = { card.ability.extra.select_limit } }
-    end,
+    end
 
     cost = 1,
     config = { extra = { select_limit = 3 } },
