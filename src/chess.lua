@@ -325,7 +325,7 @@ SMODS.Consumable {
     use = function(_, card, _, _)
         local poker_hands = evaluate_poker_hand(G.hand.highlighted)
         for k,v in pairs(poker_hands) do
-            if v[1] then
+            if k ~= "top" and v[1] then
                 update_hand_text({ sound = "button", volume = 0.7, pitch = 0.8, delay = 0.3 }, {
                     handname = localize(k, "poker_hands"),
                     chips = G.GAME.hands[k].chips,
