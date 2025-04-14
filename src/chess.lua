@@ -26,10 +26,11 @@ for i=1,2 do
         pos = { x = i - 1, y = 0 },
         kind = "Chess",
         cost = 6,
-        weight = 0.3,
-        draw_hand = true,
+        weight = 0.2,
+        draw_hand = false,
         config = { extra = 2, choose = 1 },
         group_key = "k_bongcloud_chess_pack",
+        select_card = "consumeables",
         create_card = function(self, card)
             return create_card("Chess", G.pack_cards, nil, nil, true, true, nil, nil)
         end,

@@ -13,7 +13,6 @@ return {
                 text={
                     "Choose {C:attention}#1#{} of up to",
                     "{C:attention}#2#{C:joker} Chess{} cards",
-					"to use immediately",
                 }
 			},
 			p_bongcloud_chess_pack_2 = {
@@ -21,7 +20,6 @@ return {
                 text={
                     "Choose {C:attention}#1#{} of up to",
                     "{C:attention}#2#{C:joker} Chess{} cards",
-					"to use immediately",
                 }
 			},
 			undiscovered_chess = {
