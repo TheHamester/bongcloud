@@ -53,7 +53,8 @@ SMODS.ConsumableType {
     loc_txt = {
         name = "Chess",
         collection = "Chess"
-    }
+    },
+    default = "c_bongcloud_the_pawn"
 }
 
 -- Registering Atlas for Chess consumable type cards
