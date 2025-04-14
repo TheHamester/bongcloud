@@ -73,7 +73,7 @@ SMODS.Consumable {
     set = "Chess",
     atlas = "Chess",
     pos = { x = 0, y = 0 },
-    unlocked = false,
+    unlocked = true,
     discovered = false,
     loc_vars = function(_, info_queue, card)
         return { vars = { card.ability.extra.select_limit } }
@@ -145,7 +145,7 @@ SMODS.Consumable {
     set = "Chess",
     atlas = "Chess",
     pos = { x = 1, y = 0 },
-    unlocked = false,
+    unlocked = true,
     discovered = false,
     loc_vars = function(_, info_queue, card)
         info_queue[#info_queue + 1] = { key = "bongcloud_top_deck", set = "Other", vars = {} }
@@ -178,7 +178,7 @@ SMODS.Consumable {
     set = "Chess",
     atlas = "Chess",
     pos = { x = 2, y = 0 },
-    unlocked = false,
+    unlocked = true,
     discovered = false,
     loc_vars = function(_, _, card) return { vars = { card.ability.extra.select_limit } } end,
 
@@ -249,7 +249,7 @@ SMODS.Consumable {
     set = "Chess",
     atlas = "Chess",
     pos = { x = 3, y = 0 },
-    unlocked = false,
+    unlocked = true,
     discovered = false,
 
     cost = 5,
@@ -305,7 +305,7 @@ SMODS.Consumable {
     set = "Chess",
     atlas = "Chess",
     pos = { x = 4, y = 0 },
-    unlocked = false,
+    unlocked = true,
     discovered = false,
     loc_vars = function(_, _, card)
         return { vars = { card.ability.extra.select_limit, card.ability.extra.levels } }
@@ -364,7 +364,7 @@ SMODS.Consumable {
     set = "Chess",
     atlas = "Chess",
     pos = { x = 5, y = 0 },
-    unlocked = false,
+    unlocked = true,
     discovered = false,
     loc_vars = function(_, _, card)
         return { vars = { card.ability.extra.extra_joker_slots } }
