@@ -150,7 +150,7 @@ SMODS.Consumable {
     discovered = false,
     loc_vars = function(_, info_queue, card)
         info_queue[#info_queue + 1] = { key = "bongcloud_top_deck", set = "Other", vars = {} }
-        return { vars = { card.ability.extra.ante_up, card.ability.extra.select_limit } }
+        return { vars = { card.ability.extra.select_limit, card.ability.extra.ante_up } }
     end,
 
     cost = 3,
