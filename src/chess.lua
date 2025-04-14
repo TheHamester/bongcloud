@@ -237,7 +237,15 @@ SMODS.Consumable {
         delay(0.5)
     end,
     can_use = function(_, card)
-        return #G.hand.highlighted > 0 and #G.hand.highlighted <= card.ability.extra.select_limit
+        local all_have_rank = true
+        for i=1,#G.hand.highlighted do
+            if SMODS.has_no_rank(G.hand.highlighted[i]) then
+                all_have_rank = false
+                break
+            end
+        end
+
+        return #G.hand.highlighted > 0 and #G.hand.highlighted <= card.ability.extra.select_limit and all_have_rank
     end
 }
 

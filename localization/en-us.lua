@@ -40,7 +40,7 @@ return {
 			c_bongcloud_the_knight = {
 				name = "The Knight",
 				text = {
-					"Select up to {C:attention}#1#{} cards to {C:attention}always{}",
+					"Select up to {C:attention}#1#{} cards",
 					"to apply {C:blue}Top Deck{} sticker to",
 					"Up the ante by {C:attention}#2#{}",
 				}
@@ -49,9 +49,9 @@ return {
 				name = "The Bishop",
 				text = {
 					"Select up to {C:attention}#1#{} cards",
-					"Turns selected cards to the right",
-					"of the {C:attention}left-most{} selected card into",
-					"its direct {C:attention}successors{} by rank"
+					"Turns selected cards to the right of the {C:attention}left-most{} ",
+					"selected card into its direct {C:attention}successors{} by rank",
+					"All cards must have rank"
 				}
 			},
 			c_bongcloud_the_rook = {
