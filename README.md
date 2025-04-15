@@ -1,6 +1,6 @@
 # Bongcloud
 
-**Bongcloud** (AST) is a [Balatro](https://www.playbalatro.com) modification which adds Chess consumable type.
+**Bongcloud** is a [Balatro](https://www.playbalatro.com) modification which adds Chess consumable type.
 
 ## Installation
 
