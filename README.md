@@ -9,8 +9,9 @@
 3. Extract the `.zip` into your Balatro mods folder, located at `%appdata%\Balatro\Mods\`.
 4. Enjoy!
 
-## Changelog
+## License
 
-## Release 1.0.0
-* Initial Release
-    * Added Chess consumable type with 6 Chess cards: The Pawn, The Knight, The Bishop, The Rook, The Queen, and The King
+This repository is licensed under the [GPL-3.0 License](https://github.com/TheHamester/azzys-silly-trinkets/blob/main/LICENSE)
+
+## Credits
+* [BakersDozenBagels](https://github.com/BakersDozenBagels) - for `upscale.bat` and `upscale.sh` scripts
