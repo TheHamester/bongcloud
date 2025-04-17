@@ -162,7 +162,7 @@ SMODS.Consumable {
         G.GAME.round_resets.blind_ante = G.GAME.round_resets.blind_ante + card.ability.extra.ante_up
 
         for i=1,#G.hand.highlighted do
-            G.hand.highlighted[i]:juice_up(0.3,0.3)
+            G.hand.highlighted[i]:juice_up(0.3, 0.3)
             G.hand.highlighted[i]:add_sticker("bongcloud_top_deck")
         end
     end,
