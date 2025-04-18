@@ -14,4 +14,5 @@
 This repository is licensed under the [GPL-3.0 License](https://github.com/TheHamester/azzys-silly-trinkets/blob/main/LICENSE)
 
 ## Credits
+* [RedsToad](https://github.com/Redstoad) - for idea for **The Knight**
 * [BakersDozenBagels](https://github.com/BakersDozenBagels) - for `upscale.bat` and `upscale.sh` scripts
