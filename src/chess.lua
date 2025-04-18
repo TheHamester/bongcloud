@@ -302,7 +302,7 @@ SMODS.Consumable {
         delay(0.5)
     end,
     can_use = function(_, _)
-        return #G.hand.highlighted == 1
+        return #G.hand.highlighted == 1 and not SMODS.has_no_rank(G.hand.highlighted[1])
     end
 }
 

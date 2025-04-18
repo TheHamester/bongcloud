@@ -47,8 +47,9 @@ return {
 				name = "The Bishop",
 				text = {
 					"Select up to {C:attention}#1#{} cards",
-					"Turn selected cards to the right of the {C:attention}left-most{} ",
-					"selected card into its direct {C:attention}successors{} by rank",
+					"Turns selected cards into an {C:attention}ascending straight{}",
+					"of the same suit as the {C:attention}left-most{} card",
+					"The {C:attention}left-most{} card remains unchanged",
 					"All cards must have rank"
 				}
 			},
