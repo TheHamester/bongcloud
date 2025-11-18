@@ -1,5 +1,8 @@
 ## Changelog
 
+## Patch 1.0.2
+* Fixed **The Rook** crashing the game
+
 ## Patch 1.0.1
 * Updated wording on **The Bishop**
 * **The Rook** now doesn't work on cards with no rank
