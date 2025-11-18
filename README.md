@@ -15,4 +15,4 @@ This repository is licensed under the [GPL-3.0 License](https://github.com/TheHa
 
 ## Credits
 * [RedsToad](https://github.com/Redstoad) - idea for **The Knight**
-* [BakersDozenBagels](https://github.com/BakersDozenBagels) - `upscale.bat` and `upscale.sh` scripts
+* [BakersDozenBagels](https://github.com/BakersDozenBagels) - `upscale.bat` and `upscale.sh` scripts; and The Rook fix

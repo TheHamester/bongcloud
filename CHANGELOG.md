@@ -1,7 +1,7 @@
 ## Changelog
 
 ## Patch 1.0.2
-* Fixed **The Rook** crashing the game
+* Fixed **The Rook** crashing the game (Credit to Bagels)
 
 ## Patch 1.0.1
 * Updated wording on **The Bishop**
