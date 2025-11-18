@@ -267,11 +267,12 @@ SMODS.Consumable {
         local id = G.hand.highlighted[1].base.id 
         for i = 1,#G.hand.cards do
             if G.hand.cards[i].base.id == id then
+                local dest = G.hand.cards[i]
                 G.E_MANAGER:add_event(Event({
                     trigger = 'after',
                     delay = 0.15,
                     func = function()
-                        G.hand.cards[i]:start_dissolve(nil, false)
+                        hand:start_dissolve(nil, false)
                         return true
                     end
                 }))
@@ -280,11 +281,12 @@ SMODS.Consumable {
 
         for i = 1, #G.deck.cards do
             if G.deck.cards[i].base.id == id then
+                local dest = G.deck.cards[i]
                 G.E_MANAGER:add_event(Event({
                     trigger = 'after',
                     delay = 0.15,
                     func = function()
-                        G.deck.cards[i]:start_dissolve(nil, false)
+                        dest:start_dissolve(nil, false)
                         return true
                     end
                 }))
