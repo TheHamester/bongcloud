@@ -38,42 +38,45 @@ return {
 			c_bongcloud_the_knight = {
 				name = "The Knight",
 				text = {
-					"Select up to {C:attention}#1#{} cards",
-					"to apply {C:blue}Top Deck{} sticker to",
-					"Up the ante by {C:attention}#2#{}",
+					"Add a {C:blue}Top Deck{}",
+					"sticker on up",
+					"to {C:attention}#1#{} cards",
+					"{C:attention}+#2#{} Ante"
 				}
 			},
 			c_bongcloud_the_bishop = {
 				name = "The Bishop",
 				text = {
-					"Select up to {C:attention}#1#{} cards",
-					"Turns selected cards into an {C:attention}ascending straight{}",
-					"of the same suit as the {C:attention}left-most{} card",
-					"The {C:attention}left-most{} card remains unchanged",
-					"All cards must have rank"
+					"Convert up to {C:attention}#1#{} selected cards",
+					"with rank into a {C:attention}#1#{}-card straight",
+					"starting from the {C:attention}leftmost{} card"
 				}
 			},
 			c_bongcloud_the_rook = {
 				name = "The Rook",
 				text = {
-					"Destroys every instance of a card",
-					"in the deck with the same {C:attention}rank{}",
-					"as the selected card"
+					"{C:red}Destroy{} every card",
+					"sharing the {C:attention}rank{} of",
+					"the selected card"
 				}
 			},
 			c_bongcloud_the_queen = {
 				name = "The Queen",
 				text = {
-					"Select up to {C:attention}#1#{} cards",
-					"Destroy them, and upgrade every hand",
-					"contained within by {C:attention}#2#{} levels"
+					"{C:red}Destroy{} up to {C:attention}#1#{}",
+					"selected cards",
+					"Upgrade every hand",
+					"contained within",
+					"by {C:attention}#2#{} levels"
 				}
 			},
 			c_bongcloud_the_king = {
 				name = "The King",
 				text = {
-					"Select a {C:red}Rare{} joker to destroy",
-					"Increase joker slots by {C:attention}#1#{}"
+					"{C:red}Destroy{} the",
+					"selected",
+					"{C:red}Rare{} Joker",
+					"{C:attention}+#1#{} Joker Slot"
 				}
 			}
 		}
