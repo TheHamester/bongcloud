@@ -2,6 +2,8 @@
 
 ## Patch 1.0.3
 * Fixed **The Rook** crashing the game again
+* Updated localization text
+* Changed the amount of cards appearing in a chess pack from 2 to 1
 
 ## Patch 1.0.2
 * Fixed **The Rook** crashing the game (Credit to Bagels)

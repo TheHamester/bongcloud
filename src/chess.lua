@@ -28,7 +28,7 @@ for i=1,2 do
         cost = 6,
         weight = 0.2,
         draw_hand = false,
-        config = { extra = 2, choose = 1 },
+        config = { extra = 1, choose = 1 },
         group_key = "k_bongcloud_chess_pack",
         select_card = "consumeables",
         create_card = function(self, card)
