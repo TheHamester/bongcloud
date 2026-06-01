@@ -1,5 +1,8 @@
 ## Changelog
 
+## Patch 1.0.3
+* Fixed **The Rook** crashing the game again
+
 ## Patch 1.0.2
 * Fixed **The Rook** crashing the game (Credit to Bagels)
 
