@@ -272,7 +272,7 @@ SMODS.Consumable {
                     trigger = 'after',
                     delay = 0.15,
                     func = function()
-                        hand:start_dissolve(nil, false)
+                        dest:start_dissolve(nil, false)
                         return true
                     end
                 }))
