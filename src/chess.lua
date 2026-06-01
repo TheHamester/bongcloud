@@ -162,9 +162,24 @@ SMODS.Consumable {
         G.GAME.round_resets.blind_ante = G.GAME.round_resets.blind_ante + card.ability.extra.ante_up
 
         for i=1,#G.hand.highlighted do
-            G.hand.highlighted[i]:juice_up(0.3, 0.3)
-            G.hand.highlighted[i]:add_sticker("bongcloud_top_deck")
+            G.E_MANAGER:add_event(Event({
+                trigger = 'after',
+                delay = 0.1,
+                func = function()
+                    G.hand.highlighted[i]:juice_up(0.3, 0.3)
+                    G.hand.highlighted[i]:add_sticker("bongcloud_top_deck")
+                    return true
+                end
+            }))
         end
+        G.E_MANAGER:add_event(Event({
+            trigger = 'after',
+            delay = 0.1,
+            func = function()
+                G.hand:unhighlight_all()
+                return true
+            end
+        }))
     end,
     can_use = function(_, card)
         return #G.hand.highlighted > 0 and #G.hand.highlighted <= card.ability.extra.select_limit
