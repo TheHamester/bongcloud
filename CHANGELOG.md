@@ -1,6 +1,6 @@
 ## Changelog
 
-## Patch 1.1
+## Release 1.1
 * Fixed **The Rook** crashing the game again
 * Updated localization text (Credit to Emik)
 * Changed the amount of cards appearing in a chess pack from 2 to 1
