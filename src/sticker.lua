@@ -4,7 +4,7 @@
 -- sticker.lua 
 -- Definitions of custom stickers
 -- 
--- Hamester, 2025
+-- Hamester, 2026
 ------------------------------------------------------------------------------------------------------------------------------------------------------
 
 -- Registering Atlas for Chess consumable type cards
