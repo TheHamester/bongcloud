@@ -7,7 +7,7 @@
 1. **Bongcloud** requires [Steamodded](https://github.com/Steamodded/smods). Follow the instructions to install it if you haven't already.
 2. Download the mod folder by performing one of the following:
     * Clone this repository directly into your Balatro mods folder, located at `%appdata%\Balatro\Mods\`
-    * Download the .zip of the latest tag of this repository and extract it into your Balatro mods folder, located at `%appdata%\Balatro\Mods\`
+    * Download the `.zip` of the latest tag of this repository and extract it into your Balatro mods folder, located at `%appdata%\Balatro\Mods\`
 3. Enjoy!
 
 ## License
